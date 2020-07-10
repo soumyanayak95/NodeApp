@@ -1,0 +1,15 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "Dummy Node Application for dockerization",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ./src/app.js"
+  },
+  "author": "Saumya Ranjan Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
